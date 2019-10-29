@@ -1,14 +1,19 @@
 import React from 'react';
 import classes from './MainContent.module.css';
 import RegisterForm from './RegisterForm';
+import UserProfile from './UserProfile';
+
 
 const MainContent = () => {
     return (
     <div className={ classes['main-content'] }>
         <div className={ classes['title'] }>
-            This is blog
+            User profile
         </div>
-        <RegisterForm/>
+        {/*<RegisterForm/>}*/}
+        
+        <UserProfile/>
+
     </div>
     );
 }
